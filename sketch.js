@@ -3,7 +3,8 @@ var dog
 var happydog
 var database
 var foods = 0;
-var foodstock
+var foodstock;
+var dogImg, dogImg1;
 
 function preload() {
   dogImg = loadImage("dogImg.png");
@@ -46,7 +47,6 @@ function readStock(data){
 }
 
 function writeStock(x){
-
   if(x<=0){
     x=0;
   }
